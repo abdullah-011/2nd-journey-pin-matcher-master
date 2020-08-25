@@ -4,11 +4,11 @@
         const pin =1000 + Math.random()*9000;
         const random =Math.round(pin)
               document.querySelector("#pin-Display").value=random;
-        })
+        }) 
+      //   number button function
        let  btnValue = num => document.querySelector("#btn-display").value += num;
        let  btnClear = num => document.querySelector("#btn-display").value = num;
-       
-  
+      //  submit button function
        let match = document.querySelector("#match")
        let notMatch =  document.querySelector("#not-match")
        let subMitBtn = document.querySelector("#btn-sub")
